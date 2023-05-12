@@ -3,7 +3,7 @@ basic:
   # title: Backend Developer           # job title
   avatar:
     show: false                       # show or hide avatar
-    path: /assets/image/profile.jpg  # avatar file path
+    path: /assets/images/profile.jpg  # avatar file path
 
 contact:
   # meta
