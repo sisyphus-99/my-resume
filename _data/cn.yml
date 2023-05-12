@@ -88,7 +88,7 @@ profile:
     A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
 
 experience:
-  show: true
+  show: false
   order: 2
   title: Experiences
   description: |
@@ -199,29 +199,29 @@ skill:
 
 education:
   show: true
-  order: 5
-  title: Education
+  order: 2
+  title: 教育经历
   description: |
     The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
 
     In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
 
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
+    - institution: 清华大学
+      link: 
+      date: 2021.9 - 2023.6
+      major: 深圳国际研究生院-电子信息（人工智能）
+      degree: 硕士
       description: |
         Additional information for this institution.
         + First
         + Second
 
-    - institution: Example University
+    - institution: 浙江大学
       link:
-      date: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
+      date: 2017.9 - 2021.6
+      major: 电气工程学院-电子信息工程
+      degree: 学士
       description: |
         Additional information for this institution.
         + First
