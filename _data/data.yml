@@ -197,33 +197,29 @@ education:
   order: 2
   title: 教育经历
   description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
 
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
+    - institution: 清华大学
+      link: 
+      date: 2021.9 - 2024.6
+      major: 深圳国际研究生院-电子信息（人工智能）
+      degree: 硕士
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        + GPA: 3.92/4 (top 10%)
+        + 研究方向：SLAM，多传感器融合，传感器标定
+        + 荣誉和学生工作：清华大学深圳国际研究生院一等奖学金（2021），院学生会宣传部副部长
 
-    - institution: Example University
+    - institution: 浙江大学
       link:
-      date: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
+      date: 2017.9 - 2021.6
+      major: 电气工程学院-电子信息工程
+      degree: 学士
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        + GPA: 4.13/5 (top 40%)
+        + 荣誉与学生工作：浙江大学校级优秀毕业生，浙江大学三等奖学金（2017,2018），电气工程学院斯达奖学金（2019），电气工程学院新媒体部门副部长
 
 certificate:
-  show: true
+  show: false
   order: 6
   title: Certificates
   description: |
@@ -254,13 +250,7 @@ publication:
   order: 7
   title: Publications
   description: |
-    The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
-
-    Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
-
-    If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
-
-    Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
+  
 
   items:
     - title: Example Publication in Action
@@ -273,7 +263,7 @@ publication:
       link:
 
 award:
-  show: true
+  show: false
   order: 8
   title: Awards
   description: |
@@ -298,7 +288,7 @@ award:
         It's my Example Awared Two by Example.
 
 patent:
-  show: true
+  show: false
   order: 9
   title: Patents
   description: |
@@ -322,7 +312,7 @@ patent:
     + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
 
 organization:
-  show: true
+  show: false
   order: 10
   title: Organizations
   description: |
@@ -333,7 +323,7 @@ organization:
     This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
 
 language:
-  show: true
+  show: false
   order: 11
   title: Languages
   description: |
@@ -348,7 +338,7 @@ language:
       level: Professional
 
 interest:
-  show: true
+  show: false
   order: 12
   title: Interests
   description: |
@@ -365,7 +355,7 @@ interest:
       link:
 
 evaluation:
-  show: true
+  show: false
   order: 13
   title: Self-evaluation
   description: |
@@ -376,7 +366,7 @@ evaluation:
     A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
 
 reference:
-  show: true
+  show: false
   order: 14
   title: References
   description: |
