@@ -1,6 +1,6 @@
 basic:
   name: 罗赵彤                      # name
-  title:            # job title
+  title: 个人简历           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
@@ -19,7 +19,7 @@ contact:
   drivinglicense:          # driving licence
 
   # contact
-  wechat: 同手机号                 # username
+  wechat: 15857223696                 # username
   whatsapp:                # 8611122223333     | https://wa.me/8611122223333
   telegram:                # username          | https://t.me/username
   messenger:               # username          | https://m.me/username
@@ -88,7 +88,7 @@ profile:
     A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
 
 experience:
-  show: true
+  show: false
   order: 2
   title: Experiences
   description: |
@@ -120,14 +120,9 @@ experience:
 project:
   show: true
   order: 3
-  title: Projects
+  title: 实习与项目经历
   description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
+  
   items:
     - name: Personal project
       link: '#'
@@ -148,7 +143,7 @@ project:
         + Second
 
 skill:
-  show: true
+  show: false
   order: 4
   title: Skills
   description: |
@@ -199,8 +194,8 @@ skill:
 
 education:
   show: true
-  order: 5
-  title: Education
+  order: 2
+  title: 教育经历
   description: |
     The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
 
