@@ -122,19 +122,12 @@ project:
   order: 2
   title: 实习与项目经历
   description: |
-    # The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    # In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    # The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
   items:
     - name: 上海人工智能实验室-自动驾驶部门（ADG）-标定组
       link: 'https://github.com/PJLab-ADG'
       tags:
       date: 2022.9 - 至今
       description: |
-        # Personal project description...
         + 传感器到车辆在线外参标定方法研究（RAL论文在投，[代码开源](https://github.com/OpenCalib/SensorX2car) ）：
         + 实现相机到车辆的外参标定：使用基于transformer的网络预测图片消失点和地平线，计算相机与道路的旋转，统计一段时间内的结果估计相机与车辆的旋转
         + 实现激光雷达到车辆的外参标定：使用SLAM算法得到激光雷达6DoF位姿，平滑x-y轨迹曲线得到车辆前进方向，根据车辆前进方向与激光雷达的x轴坐标来标定yaw角；提取地面标定pitch,roll角。用与激光雷达同样方法标定GNSS/INS集成设备与车辆的yaw角。
@@ -145,7 +138,6 @@ project:
       tags: committer
       date:
       description: |
-        OSS project description...
         + First
         + Second
 
@@ -204,10 +196,6 @@ education:
   order: 1
   title: 教育经历
   description: |
-    # The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    # In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
-
   items:
     - institution: 清华大学
       link: 
@@ -215,7 +203,6 @@ education:
       major: 深圳国际研究生院-电子信息（人工智能）
       degree: 硕士
       description: |
-        # Additional information for this institution.
         + GPA: 3.92/4 (top 10%)
         + 研究方向：SLAM，多传感器融合，传感器标定
         + 荣誉：清华大学深圳国际研究生院一等奖学金（2021）
@@ -227,7 +214,6 @@ education:
       major: 电气工程学院-电子信息工程
       degree: 学士
       description: |
-        # Additional information for this institution.
         + GPA: 4.13/5 (top 40%)
         + 荣誉：浙江大学校级优秀毕业生，浙江大学三等奖学金（2017,2018），浙江大学电气工程学院斯达奖学金（2019）
         + 学生工作：
@@ -264,19 +250,12 @@ publication:
   order: 3
   title: Publications
   description: |
-    # The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
-
-    # Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
-
-    # If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
-
-    # Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
 
   items:
     - title: (在投)SensorX2car: Sensors-to-car calibration for autonomous driving in road scenarios
       authors: Yan Guohang*(mentor), Luo Zhaotong*
       conference: IEEE Robotics and Automation Letters(RAL)
-      link: 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369'
+      link: '#'
     - title: 《智能网联汽车高精度定位技术》
       authors: 负责撰写惯性导航定位章节
       conference: 
@@ -332,7 +311,7 @@ patent:
     + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
 
 organization:
-  show: true
+  show: false
   order: 10
   title: Organizations
   description: |
@@ -343,7 +322,7 @@ organization:
     This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
 
 language:
-  show: true
+  show: false
   order: 11
   title: Languages
   description: |
@@ -358,7 +337,7 @@ language:
       level: Professional
 
 interest:
-  show: true
+  show: false
   order: 12
   title: Interests
   description: |
@@ -375,7 +354,7 @@ interest:
       link:
 
 evaluation:
-  show: true
+  show: false
   order: 13
   title: Self-evaluation
   description: |
@@ -386,7 +365,7 @@ evaluation:
     A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
 
 reference:
-  show: true
+  show: false
   order: 14
   title: References
   description: |
@@ -399,12 +378,12 @@ reference:
     It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
 
   items:
-    - name: Foo One
-      link: '#'
-      title: Backend Developer
-      institution: Second Company
+    - name: 罗赵彤
+      link: 
+      title: 
+      institution: 清华大学深圳国际研究生院
       address: 1234 Example St, XXX, XY 11111
-      email: foo.one@example.com
+      email: 1172451976@qq.com
       phone: 111-222-333
       description: |
         Foo One was my colleague in Second Company.
