@@ -19,7 +19,7 @@ contact:
   drivinglicense:          # driving licence
 
   # contact
-  wechat:                  # username
+  wechat: 15857223696                 # username
   whatsapp:                # 8611122223333     | https://wa.me/8611122223333
   telegram:                # username          | https://t.me/username
   messenger:               # username          | https://m.me/username
@@ -135,8 +135,10 @@ project:
       date: 2022.9 - 至今
       description: |
         # Personal project description...
-        + 传感器到车辆在线标定方法研究
-        + Second
+        + 传感器到车辆在线外参标定方法研究（RAL论文在投，[代码开源](https://github.com/OpenCalib/SensorX2car) ）：
+        + 实现相机到车辆的外参标定：使用基于transformer的网络预测图片消失点和地平线，计算相机与道路的旋转，统计一段时间内的结果估计相机与车辆的旋转
+        + 实现激光雷达到车辆的外参标定：使用SLAM算法得到激光雷达6DoF位姿，平滑x-y轨迹曲线得到车辆前进方向，根据车辆前进方向与激光雷达的x轴坐标来标定yaw角；提取地面标定pitch,roll角。用与激光雷达同样方法标定GNSS/INS集成设备与车辆的yaw角。
+        + 优化毫米波雷达到车辆的外参标定：
 
     - name: OSS project
       link:
@@ -209,7 +211,7 @@ education:
   items:
     - institution: 清华大学
       link: 
-      date: 2021.9 - 2023.6
+      date: 2021.9 - 2024.6
       major: 深圳国际研究生院-电子信息（人工智能）
       degree: 硕士
       description: |
