@@ -7,7 +7,7 @@ basic:
 
 contact:
   # meta
-  # location: Beijing, China # location
+  location: # location
   email: 1172451976@qq.com    # email address
   phone: +86-158-5722-3696 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website:      # site URL without schema, like example.com, will automatically prepand "https://"
