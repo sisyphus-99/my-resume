@@ -1,6 +1,6 @@
 basic:
   name: 罗赵彤                      # name
-  # title: Backend Developer           # job title
+  title:                           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png  # avatar file path
