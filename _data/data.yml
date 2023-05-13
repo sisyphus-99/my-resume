@@ -12,14 +12,14 @@ contact:
   phone: +86-158-5722-3696 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website:      # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender:                  # gender or pronoun
-  birthday:                # birthday
+  gender: 女                 # gender or pronoun
+  birthday: 1999.03.19               # birthday
   nationality:             # nationality
   visa:                    # passport visa
   drivinglicense:          # driving licence
 
   # contact
-  wechat:                  # username
+  wechat: 同手机号                 # username
   whatsapp:                # 8611122223333     | https://wa.me/8611122223333
   telegram:                # username          | https://t.me/username
   messenger:               # username          | https://m.me/username
@@ -79,7 +79,7 @@ contact:
   strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
-  show: true
+  show: false
   order: 1
   title: Profile
   description: |
