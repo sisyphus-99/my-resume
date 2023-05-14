@@ -124,19 +124,19 @@ project:
   description: |
   
   items:
-    - name: 上海人工智能实验室-自动驾驶部门-标定组
-      link: '#'
-      tags:
+    - name: 上海人工智能实验室-自动驾驶部门（PJLAB-ADG）
+      link: 'https://github.com/PJLab-ADG'
+      tags: 标定组
       date: 2022.9 - 至今
       description: |
         + 传感器到车辆在线外参标定方法研究（论文在投，[代码开源](https://github.com/OpenCalib/SensorX2car) ）：
         + 实现相机到车辆的外参标定：使用基于transformer的网络预测图片消失点和地平线，计算相机与道路的旋转，统计一段时间内的结果估计相机与车辆的旋转
         + 实现激光雷达到车辆的外参标定：使用SLAM算法得到激光雷达6DoF位姿，平滑x-y轨迹曲线得到车辆前进方向，根据车辆前进方向与激光雷达的x轴坐标来标定yaw角；提取地面标定pitch,roll角。用与激光雷达同样方法标定GNSS/INS集成设备与车辆的yaw角。
-        + 优化毫米波雷达到车辆的外参标定：
+        1. 优化毫米波雷达到车辆的外参标定：
 
     - name: OSS project
       link:
-      tags: committer
+      tags: 
       date:
       description: |
         OSS project description...
@@ -217,6 +217,7 @@ education:
       degree: 学士
       description: |
         + GPA: 4.13/5 (top 40%)
+        + 主修课程：C程序设计（5.0），java程序设计（5.0），微机原理与接口技术（5.0），控制理论（5.0），线性代数（4.5），概率论（4.5）
         + 荣誉与学生工作：浙江大学校级优秀毕业生，浙江大学三等奖学金（2017,2018），电气工程学院斯达奖学金（2019），电气工程学院新媒体部门副部长
 
 certificate:
