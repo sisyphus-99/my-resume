@@ -130,7 +130,12 @@ project:
       date: 2022.9 - 至今
       description: |
         + 四种传感器到车辆在线外参标定方法（论文在投，[代码开源](https://github.com/OpenCalib/SensorX2car) ）：
-      
+        1. 实现单目相机到车辆的外参标定：使用基于transformer的网络预测图片消失点和地平线，计算相机与道路的旋转，统计一段时间内的结果估计相机与车辆的旋转
+        2. 实现激光雷达到车辆的外参标定：使用SLAM算法得到激光雷达6DoF位姿，平滑x-y轨迹曲线得到车辆前进方向，根据车辆前进方向与激光雷达的x轴坐标来标定yaw角；提取地面标定pitch,roll角。
+        3. 使用与激光雷达同样方法标定GNSS/INS集成设备与车辆的yaw角
+        4. 优化毫米波雷达到车辆的外参标定：在原有方法上加入车辆定位信息，优化不同帧的权重系数
+        + 基于图片分割的相机与激光雷达外参标定
+        1. 原方法使用车道线，电线杆进行匹配，对场景要求高。改进方法
 
     - name: 相机与GNSS融合SLAM实现巡检车定位
       link:
@@ -251,14 +256,6 @@ publication:
   
 
   items:
-    - title: SensorX2car: Sensors-to-car calibration for autonomous driving in road scenarios（在投，arxiv上为初稿）
-      authors: 与mentor共同一作
-      conference: IEEE Robotics and Automation Letters(RAL)
-      link: 'https://arxiv.org/abs/2301.07279'
-    - title: 《智能网联汽车高精度定位技术》
-      authors: 负责撰写惯性导航定位技术章节
-      conference: ISBN 9787114184116
-      link:
 
 award:
   show: false
