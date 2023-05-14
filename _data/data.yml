@@ -256,10 +256,10 @@ publication:
   
 
   items:
-    - title: SensorX2car: Sensors-to-car calibration for autonomous driving in road scenarios
+    - title: SensorX2car Sensors-to-car calibration for autonomous driving in road scenarios
       authors: 
       conference: IEEE Robotics and Automation Letters(RAL)
-      link: 'https://arxiv.org/abs/2301.07279'
+      link: 
     - title: 智能网联汽车高精度定位技术
       authors: 
       conference: ISBN 9787114184116
