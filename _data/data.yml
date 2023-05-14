@@ -19,7 +19,7 @@ contact:
   drivinglicense:          # driving licence
 
   # contact
-  wechat: 15857223696                 # username
+  wechat: w1850101627                 # username
   whatsapp:                # 8611122223333     | https://wa.me/8611122223333
   telegram:                # username          | https://t.me/username
   messenger:               # username          | https://m.me/username
@@ -261,8 +261,8 @@ publication:
       conference: IEEE Robotics and Automation Letters(RAL)
       link: 'https://arxiv.org/abs/2301.07279'
     - title: 《智能网联汽车高精度定位技术》
-      authors: 负责撰写“惯性导航定位技术”章节
-      conference: ISBN：9787114184116
+      authors: 负责撰写惯性导航定位技术章节
+      conference: ISBN 9787114184116
       link:
 
 award:
