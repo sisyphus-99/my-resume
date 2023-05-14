@@ -257,11 +257,11 @@ publication:
 
   items:
     - title: SensorX2car Sensors-to-car calibration for autonomous driving in road scenarios
-      authors: 
+      authors: Yan Guohang*, Luo Zhaotong*(与mentor共一）
       conference: IEEE Robotics and Automation Letters(RAL)
       link: 
     - title: 智能网联汽车高精度定位技术
-      authors: 
+      authors: 负责惯性导航定位章节
       conference: ISBN 9787114184116
       link:
    
