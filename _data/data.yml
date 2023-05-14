@@ -124,24 +124,25 @@ project:
   description: |
   
   items:
-    - name: 上海人工智能实验室-自动驾驶部门（PJLAB-ADG）
-      link: 'https://github.com/PJLab-ADG'
-      tags: 标定组
+    - name: 上海人工智能实验室-自动驾驶部门-标定组
+      link: 'https://github.com/PJLab-ADG/SensorsCalibration'
+      tags: 实习
       date: 2022.9 - 至今
       description: |
-        + 传感器到车辆在线外参标定方法研究（论文在投，[代码开源](https://github.com/OpenCalib/SensorX2car) ）：
-        - 实现相机到车辆的外参标定：使用基于transformer的网络预测图片消失点和地平线，计算相机与道路的旋转，统计一段时间内的结果估计相机与车辆的旋转
-        + 实现激光雷达到车辆的外参标定：使用SLAM算法得到激光雷达6DoF位姿，平滑x-y轨迹曲线得到车辆前进方向，根据车辆前进方向与激光雷达的x轴坐标来标定yaw角；提取地面标定pitch,roll角。用与激光雷达同样方法标定GNSS/INS集成设备与车辆的yaw角。
-        1. 优化毫米波雷达到车辆的外参标定：
+        + 四种传感器到车辆在线外参标定方法（论文在投，[代码开源](https://github.com/OpenCalib/SensorX2car) ）：
+        1. 实现单目相机到车辆的外参标定：使用基于transformer的网络预测图片消失点和地平线，计算相机与道路的旋转，统计一段时间内的结果估计相机与车辆的旋转
+        2. 实现激光雷达到车辆的外参标定：使用SLAM算法得到激光雷达6DoF位姿，平滑x-y轨迹曲线得到车辆前进方向，根据车辆前进方向与激光雷达的x轴坐标来标定yaw角；提取地面标定pitch,roll角。
+        3. 使用与激光雷达同样方法标定GNSS/INS集成设备与车辆的yaw角
+        4. 优化毫米波雷达到车辆的外参标定：在原有方法上加入车辆定位信息，优化不同帧的权重系数
+        + 基于图片分割的相机与激光雷达外参标定
+        1. 原方法使用车道线，电线杆进行匹配，对场景要求高。改进方法
 
-    - name: OSS project
+    - name: 相机与GNSS融合SLAM实现巡检车定位
       link:
-      tags: 
-      date:
+      tags: 实验室项目
+      date: 2022.3 - 2022.12
       description: |
-        OSS project description...
-        + First
-        + Second
+        + 使用小觅RGB-D相机与高精度组合导航定位系统采集路况数据
 
 skill:
   show: false
@@ -217,7 +218,7 @@ education:
       degree: 学士
       description: |
         + GPA: 4.13/5 (top 40%)
-        + 主修课程：C程序设计（5.0），java程序设计（5.0），微机原理与接口技术（5.0），控制理论（5.0），线性代数（4.5），概率论（4.5）
+        + 主修课程：C程序设计(97), java程序设计(95), 微机原理与接口技术(96), 控制理论(95), 线性代数(90), 概率论(91)
         + 荣誉与学生工作：浙江大学校级优秀毕业生，浙江大学三等奖学金（2017,2018），电气工程学院斯达奖学金（2019），电气工程学院新媒体部门副部长
 
 certificate:
@@ -255,13 +256,13 @@ publication:
   
 
   items:
-    - title: Example Publication in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: '#'
-    - title: The Art of Example Publication
-      authors: Foo Bar
-      conference: Foobar, 2019
+    - title: SensorX2car: Sensors-to-car calibration for autonomous driving in road scenarios（在投，arxiv上为初稿）
+      authors: 与mentor共同一作
+      conference: IEEE Robotics and Automation Letters(RAL)
+      link: 'https://arxiv.org/abs/2301.07279'
+    - title: 《智能网联汽车高精度定位技术》
+      authors: 负责撰写“惯性导航定位技术”章节
+      conference: ISBN：9787114184116
       link:
 
 award:
@@ -290,7 +291,7 @@ award:
         It's my Example Awared Two by Example.
 
 patent:
-  show: false
+  show: true
   order: 9
   title: Patents
   description: |
