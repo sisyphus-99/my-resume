@@ -149,8 +149,8 @@ project:
       tags: 实验室项目
       date: 2022.3 - 2022.12
       description: |
-        + （1）使用相机与IMU采集数据，对数据做时间戳对齐，并在VINS-MONO, ORBSLAM3上进行测试
-        + （2）加入高精度组合导航定位系统采集数据，在VINS-FUSION上测试
+        + 使用相机与IMU采集数据，对数据做时间戳对齐，并在VINS-MONO, ORBSLAM3上进行测试
+        + 加入高精度组合导航定位系统采集数据，在VINS-FUSION上测试
 
 skill:
   show: false
