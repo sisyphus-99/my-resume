@@ -124,12 +124,12 @@ project:
   description: |
   
   items:
-    - name: <font color="red">上海人工智能实验室-自动驾驶部门-标定组</font>
+    - name: <font color="green">上海人工智能实验室-自动驾驶部门-标定组</font>
       link: 'https://github.com/PJLab-ADG/SensorsCalibration'
       tags: 实习
       date: 2022.9 - 至今
       description: |
-        + **四种传感器到车辆在线外参标定方法**（论文在投，[代码开源](https://github.com/OpenCalib/SensorX2car) ）      
+        + **四种传感器到车辆在线外参标定方法**（论文在投，[<font color="green">代码开源</font>](https://github.com/OpenCalib/SensorX2car) ）      
           
           （1）单目相机到车辆的外参标定：使用基于transformer的网络预测图片消失点和地平线，计算相机与道路的旋转，统计一段时间内的结果估计相机与车辆的旋转
         
@@ -138,7 +138,7 @@ project:
           （3）GNSS/INS到车辆标定：使用与激光雷达同样方法标定GNSS/INS集成设备与车辆的yaw角
         
           （4）毫米波雷达到车辆的外参标定：在原有方法上加入车辆定位信息，优化不同帧的权重系数，使得结果更稳定    
-        + **基于分割的相机与激光雷达外参标定**（进行中，论文完成初稿，[代码开源](https://github.com/OpenCalib/CalibAnything)）
+        + **基于分割的相机与激光雷达外参标定**（进行中，论文完成初稿，[<font color="green">代码开源</font>](https://github.com/OpenCalib/CalibAnything)）
          
           （1）尝试改进原标定方法（分割出车道线，电线杆进行匹配），投影到BEV
         
@@ -266,11 +266,11 @@ publication:
   
 
   items:
-    - title: "（在投）SensorX2car: Sensors-to-car calibration for autonomous driving in road scenarios"
+    - title: <font color="green"> (在投) SensorX2car Sensors-to-car calibration for autonomous driving in road scenarios </font>
       authors: Yan Guohang*, Luo Zhaotong*(与mentor共一）
       conference: IEEE Robotics and Automation Letters(RAL)(在投)
       link: https://arxiv.org/abs/2301.07279
-    - title: "（准备投稿）Calib-Anything: Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything"
+    - title: <font color="green"> (准备投稿) Calib-Anything: Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything" </font>
       authors: Luo Zhaotong（一作）
       conference: 
       link: https://arxiv.org/abs/2306.02656  
