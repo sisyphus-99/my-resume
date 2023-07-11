@@ -124,7 +124,7 @@ project:
   description: |
   
   items:
-    - name: 上海人工智能实验室-自动驾驶部门-标定组
+    - name: \underline{上海人工智能实验室-自动驾驶部门-标定组}
       link: 'https://github.com/PJLab-ADG/SensorsCalibration'
       tags: 实习
       date: 2022.9 - 至今
