@@ -124,7 +124,7 @@ project:
   description: |
   
   items:
-    - name: \underline{上海人工智能实验室-自动驾驶部门-标定组}
+    - name: <font color="red">上海人工智能实验室-自动驾驶部门-标定组</font>
       link: 'https://github.com/PJLab-ADG/SensorsCalibration'
       tags: 实习
       date: 2022.9 - 至今
@@ -218,6 +218,7 @@ education:
         + **GPA** : 3.92/4 (top 10%)
         + **导师/实验室** : 张凯/智能交通系统实验室（ITS）
         + **研究方向** : SLAM，多传感器融合，传感器标定
+        + **课程项目**: 车道线检测，布匹缺陷检测，神经机器翻译论文复现
         + **荣誉和学生工作** : 清华大学深圳国际研究生院一等奖学金（2021），清华大学三菱重工奖学金，院学生会宣传部副部长
 
     - institution: 浙江大学
