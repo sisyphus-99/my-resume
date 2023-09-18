@@ -1,13 +1,13 @@
 basic:
   name: 罗赵彤                      # name
-  title:            # job title
+  title: 自动驾驶，SLAM，标定算法工程师           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
-  location:  # location
+  location: 浙江省湖州市  # location
   email: 1172451976@qq.com   # email address
   phone: +86-158-5722-3696 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website:      # site URL without schema, like example.com, will automatically prepand "https://"
@@ -147,11 +147,18 @@ project:
           
           （2）经过在KITTI和Nuscenes上的实验，方法的鲁棒性，准确性优于当前先进的方法。标定精度在0.2度，5cm左右。完成论文：[<font color="blue"> Calib-Anything Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything </font>](https://arxiv.org/abs/2306.02656). ICRA2024在投。
 
+        + **自动驾驶数据生成系统**
+          
+          （1）此项目内容主要是用实车采集数据使用三维重建算法（neursim）
+          
+        + **基于的环视相机标定**
+
     - name: 基于多传感器融合的巡检车定位系统
       link:
       tags: 实验室项目
       date: 2022.3 - 2022.12
       description: |
+        + 使用公开数据集测试LOAM，LIO-SAM，LVI-SAM等lidar SLAM方法
         + 使用相机与IMU采集数据，对数据做时间戳对齐，并在VINS-MONO, ORBSLAM3上进行测试
         + 加入高精度组合导航定位系统采集数据，在VINS-FUSION上测试
 
