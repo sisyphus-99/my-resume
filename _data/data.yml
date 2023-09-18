@@ -1,6 +1,6 @@
 basic:
   name: 罗赵彤                      # name
-  title: 个人简历           # job title
+  title:            # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
@@ -12,7 +12,7 @@ contact:
   phone: +86-158-5722-3696 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website:      # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender: 女                 # gender or pronoun
+  gender:                  # gender or pronoun
   birthday: 1999.03.19               # birthday
   nationality:             # nationality
   visa:                    # passport visa
@@ -129,20 +129,23 @@ project:
       tags: 实习
       date: 2022.9 - 至今
       description: |
-        + **四种传感器到车辆在线外参标定方法**（论文在投，[<font color="blue">代码开源</font>](https://github.com/OpenCalib/SensorX2car) ）      
+        + **四种传感器到车辆在线外参标定方法**（论文在投，[<font color="blue">代码开源</font>](https://github.com/OpenCalib/SensorX2car), star 100+ ）      
           
-          （1）单目相机到车辆的外参标定：使用基于transformer的网络预测图片消失点和地平线，计算相机与道路的旋转，统计一段时间内的结果估计相机与车辆的旋转。最终标定精度在0.3°左右。
+          （1）单目相机到车辆的外参标定：使用基于transformer的回归网络预测图片消失点和地平线，计算相机与道路的旋转，统计一段时间内的结果估计相机与车辆的旋转角。
         
-          （2）激光雷达到车辆的外参标定：使用SLAM算法得到激光雷达6DoF位姿，平滑x-y轨迹曲线得到车辆前进方向，根据车辆前进方向与激光雷达的x轴坐标来标定yaw角；提取地面标定pitch,roll角。最终标定精度在0.2度左右。
+          （2）激光雷达到车辆的外参标定：用F-LOAM得到激光雷达6DoF位姿，平滑x-y轨迹曲线得到车辆前进方向，根据车辆前进方向与激光雷达的主轴方向的offset来计算yaw角；提取地面标定pitch,roll角。
         
-          （3）GNSS/INS到车辆标定：使用与激光雷达同样方法标定GNSS/INS集成设备与车辆的yaw角。最终标定精度在0.1°左右。
+          （3）GNSS/INS到车辆标定：使用与激光雷达同样方法标定GNSS/INS集成设备与车辆的yaw角。
         
-          （4）毫米波雷达到车辆的外参标定：利用雷达检测到的多普勒速度，假设检测物体中静态物体占大多数，静态物体的检测多普勒速度为车速在径向的分量，以此估计yaw角，最终精度在0.07°左右。    
-        + **基于分割的相机与激光雷达外参标定**（论文在投，[<font color="blue">代码开源</font>](https://github.com/OpenCalib/CalibAnything)）
+          （4）毫米波雷达到车辆的外参标定：假设目标中静态物体占大多数，静态物体被雷达检测到的多普勒速度为车速在径向的分量。通过车速，目标速度，目标所在角度可以估计yaw角。
+
+          （5）四种方法在kitti,nuscenes,radarscenes等数据集上进行实验并完成论文: [<font color="blue"> SensorX2car Sensors-to-car calibration for autonomous driving in road scenarios </font>](https://arxiv.org/abs/2301.07279). RAL期刊在投。
+          
+        + **基于分割的相机与激光雷达外参标定**（论文在投，[<font color="blue">代码开源</font>](https://github.com/OpenCalib/CalibAnything)，star 100+）
          
-          （1）使用 Segment Anything Model对图片进行分割，通过计算各个mask内投影点云的法向量，反射率，分割类别一致性来初步估计外参，通过计算mask内外一定区域内法向量，反射率，分割类别的不一致性来进一步优化外参。
+          （1）使用 Segment Anything Model对图片进行全局分割，通过计算各个mask内投影点云的法向量，反射率，分割类别一致性来优化外参。
           
-          （2）经过在KITTI和Nuscenes上的实验，方法的鲁棒性，准确性优于当前先进的方法。标定精度在0.1度，5cm左右。
+          （2）经过在KITTI和Nuscenes上的实验，方法的鲁棒性，准确性优于当前先进的方法。标定精度在0.2度，5cm左右。完成论文：[<font color="blue"> Calib-Anything Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything </font>](https://arxiv.org/abs/2306.02656). ICRA2024在投。
 
     - name: 基于多传感器融合的巡检车定位系统
       link:
@@ -151,6 +154,16 @@ project:
       description: |
         + 使用相机与IMU采集数据，对数据做时间戳对齐，并在VINS-MONO, ORBSLAM3上进行测试
         + 加入高精度组合导航定位系统采集数据，在VINS-FUSION上测试
+
+    - name: 书籍撰写工作
+      link:
+      tags: 实验室项目
+      date: 2022.1, 2023.6
+      description: |
+        + 《智能网联汽车高精度定位技术》惯性导航定位章节
+        + 《汽车自动驾驶性能测试的智能方法与技术》
+
+    
 
 skill:
   show: false
@@ -259,7 +272,7 @@ certificate:
         It's my Example Certificate Two by Example.
 
 publication:
-  show: true
+  show: false
   order: 7
   title: Publications
   description: |
