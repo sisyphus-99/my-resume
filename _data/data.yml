@@ -139,7 +139,7 @@ project:
         
           （4）毫米波雷达到车辆的外参标定：假设目标中静态物体占大多数，静态物体被雷达检测到的多普勒速度为车速在径向的分量。通过车速，目标速度，目标所在角度可以估计yaw角。
 
-          （5）四种方法在kitti,nuscenes,radarscenes等数据集上进行实验并完成论文: [<font color="blue"> SensorX2car Sensors-to-car calibration for autonomous driving in road scenarios </font>](https://arxiv.org/abs/2301.07279). RAL期刊在投。
+          （5）四种方法在kitti,nuscenes,radarscenes等数据集上进行实验。完成论文: [<font color="blue"> SensorX2car Sensors-to-car calibration for autonomous driving in road scenarios </font>](https://arxiv.org/abs/2301.07279). RAL期刊在投。
           
         + **基于分割的相机与激光雷达外参标定**（论文在投，[<font color="blue">代码开源</font>](https://github.com/OpenCalib/CalibAnything)，star 100+）
          
