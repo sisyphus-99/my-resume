@@ -282,7 +282,7 @@ publication:
   
 
   items:
-    - title: <font color="blue"> SensorX2Vehicle: Online Sensors-to-Vehicle Rotation Calibration Methods in Road Scenarios </font>
+    - title: <font color="blue"> Online Sensors-to-Vehicle Rotation Calibration Methods in Road Scenarios </font>
       authors: Yan Guohang*, Luo Zhaotong*(与mentor共一）
       conference: IEEE Robotics and Automation Letters(RAL)
       link: https://ieeexplore.ieee.org/document/10452804
