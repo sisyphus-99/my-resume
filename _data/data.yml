@@ -90,7 +90,7 @@ profile:
 experience:
   show: true
   order: 2
-  title: 工作经历
+  title: Experience
   description: |
   
   items:
@@ -225,7 +225,7 @@ skill:
 education:
   show: true
   order: 1
-  title: 教育经历
+  title: Education
   description: |
 
   items:
