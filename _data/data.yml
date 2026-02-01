@@ -94,17 +94,26 @@ experience:
   description: |
   
   items:
-    - company: <font color="red">华为-智能车解决方案 - 智能驾驶产品线</font>
+    - company: <font color="darkred">华为-智能车解决方案 - 智能驾驶产品线</font>
       link:
       tags:
       date: 2024.07 - 至今
       role: 自动驾驶算法工程师
       location: 
       description: |
-        + First
-        + Second
+        + **端到端训推一致防护网**
 
-    - company: <font color="red">上海人工智能实验室 - OpenCalib</font>
+        （1）从0到1构建
+        
+        + **接管数据提升模型**
+
+        （1）
+        
+        + **激光噪声误检优化**
+        
+        （1）承担ADS3.0通用障碍物检测节点中激光噪声误检优化代码开发，解决
+
+    - company: <font color="darkred">上海人工智能实验室 - OpenCalib</font>
       link:
       tags: 实习
       date: 2022.08 - 2024.01
@@ -113,15 +122,15 @@ experience:
       description: |
         + **四种传感器到车辆在线外参标定方法**
         
-          （1）github代码仓[https://github.com/OpenCalib/SensorX2car](https://github.com/OpenCalib/SensorX2car) 获得star 100+
+          （1）提出了
           
-          （2）论文[<font color="blue">SensorX2Vehicle: Online Sensors-to-Vehicle Rotation Calibration Methods in Road Scenarios</font>](https://ieeexplore.ieee.org/document/10452804) 发表于期刊IEEE Robotics and Automation Letters(RAL)
+          （2）[<font color="blue">开源代码</font>](https://github.com/OpenCalib/SensorX2car) 获得star 100+
           
         + **基于分割的相机与激光雷达外参标定**
         
-          （1）[<font color="blue">代码开源</font>](https://github.com/OpenCalib/CalibAnything), star 100+
+          （1）
           
-          （2）论文[<font color="blue">Automatic Multi-Camera Calibration and Refinement Method in Road Scene for Self-Driving Car</font>](https://ieeexplore.ieee.org/document/10278439) 发表于会议International Conference on Robotics and Automation(ICRA)
+          （2）[<font color="blue">开源代码</font>](https://github.com/OpenCalib/CalibAnything), 获得star 100+
 
           
 
@@ -223,12 +232,11 @@ education:
     - institution: 清华大学
       link: 
       date: 2021.9 - 2024.6
-      major: 深圳国际研究生院-电子信息（人工智能）
+      major: 深圳国际研究生院-人工智能
       degree: 硕士
       description: |
-        + **导师/实验室** : 张凯/智能交通系统实验室（ITS）
         + **研究方向** : SLAM，多传感器融合，传感器标定
-        + **奖项**: 深圳国际研究生院一等奖学金，专业实践二等奖
+        + **奖项**: 深圳国际研究生院一等奖学金，专业实践二等奖，清华大学三菱重工奖学金
 
     - institution: 浙江大学
       link:
@@ -274,19 +282,15 @@ publication:
   
 
   items:
-    - title: <font color="blue"> SensorX2car Sensors-to-car calibration for autonomous driving in road scenarios </font>
+    - title: <font color="blue"> SensorX2Vehicle: Online Sensors-to-Vehicle Rotation Calibration Methods in Road Scenarios </font>
       authors: Yan Guohang*, Luo Zhaotong*(与mentor共一）
       conference: IEEE Robotics and Automation Letters(RAL)
-      link: https://arxiv.org/abs/2301.07279
-    - title: <font color="blue"> Calib-Anything Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything </font>
+      link: https://ieeexplore.ieee.org/document/10452804
+    - title: <font color="blue"> Automatic Multi-Camera Calibration and Refinement Method in Road Scene for Self-Driving Car </font>
       authors: Luo Zhaotong（一作）
       conference: IEEE International Conference on Robotics and Automation (ICRA)
-      link: https://arxiv.org/abs/2306.02656
-    - title: 《智能网联汽车高精度定位技术》
-      authors: 负责惯性导航定位章节
-      conference: 图书编号（ISBN）9787114184116
-      link:
-   
+      link: https://ieeexplore.ieee.org/document/10278439
+
 
 award:
   show: false
@@ -376,7 +380,7 @@ interest:
       link:
 
 evaluation:
-  show: true
+  show: false
   order: 13
   title: Self-evaluation
   description: |
