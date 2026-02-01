@@ -1,19 +1,19 @@
 basic:
   name: 罗赵彤                      # name
-  title: 自动驾驶，SLAM，标定算法工程师           # job title
+  title:            # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
-  location: 浙江省湖州市  # location
+  location:  # location
   email: 1172451976@qq.com   # email address
   phone: +86-158-5722-3696 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website:      # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
-  birthday: 1999.03.19               # birthday
+  birthday:               # birthday
   nationality:             # nationality
   visa:                    # passport visa
   drivinglicense:          # driving licence
@@ -88,43 +88,50 @@ profile:
     A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
 
 experience:
-  show: false
-  order: 2
-  title: Experiences
-  description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
-
-  items:
-    - company: Second Company
-      link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
-
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
-
-project:
   show: true
-  order: 3
-  title: 实习与项目经历
+  order: 2
+  title: 工作经历
   description: |
   
   items:
-    - name: <font color="blue">上海人工智能实验室-自动驾驶部门-标定组</font>
+    - company: <font color="blue">华为-智能车解决方案 - 智能驾驶产品线</font>
+      link:
+      tags:
+      date: 2024.07 - 至今
+      role: 自动驾驶算法工程师
+      location: 
+      description: |
+        + First
+        + Second
+    - company: <font color="blue">上海人工智能实验室 - OpenCalib</font>
+      link:
+      tags: 实习
+      date: 2022.08 - 2024.01
+      role: 标定算法工程师
+      location: 
+      description: |
+        + **四种传感器到车辆在线外参标定方法**
+        
+          （1）[<font color="blue">代码开源</font>](https://github.com/OpenCalib/SensorX2car), star 100+
+          
+          （2）论文[<font color="blue">SensorX2Vehicle: Online Sensors-to-Vehicle Rotation Calibration Methods in Road Scenarios</font>](https://ieeexplore.ieee.org/document/10452804) 发表于期刊IEEE Robotics and Automation Letters(RAL)
+          
+        + **基于分割的相机与激光雷达外参标定**
+        
+          （1）[<font color="blue">代码开源</font>](https://github.com/OpenCalib/CalibAnything), star 100+
+          
+          （2）论文[<font color="blue">Automatic Multi-Camera Calibration and Refinement Method in Road Scene for Self-Driving Car</font>](https://ieeexplore.ieee.org/document/10278439) 发表于会议International Conference on Robotics and Automation(ICRA)
+
+          
+
+project:
+  show: false
+  order: 3
+  title: 工作经历
+  description: |
+  
+  items:
+    - name: <font color="blue">上海人工智能实验室-标定算法工程师</font>
       link: 'https://github.com/PJLab-ADG/SensorsCalibration'
       tags: 实习
       date: 2022.9 - 至今
@@ -152,23 +159,6 @@ project:
           （1）项目内容：对实车采集的数据进行基于神经渲染的隐式三维重建，然后将路网和路由信息导入交通流仿真。在仿真过程中通过编辑自车轨迹等重新生成车辆轨迹。再将车辆轨迹输入三维重建模型得到新的仿真数据。
 
           （2）本人负责内容：在交通流仿真系统中修改原图形化界面，加入交互操作，使得用户能在界面中选定车辆轨迹，并对修改后的轨迹重新进行仿真。
-
-    - name: 基于多传感器融合的巡检车定位系统
-      link:
-      tags: 实验室项目
-      date: 2022.3 - 2022.12
-      description: |
-        + 使用公开数据集urbanNav测试LOAM，LIO-SAM，LVI-SAM等lidar SLAM方法
-        + 使用我们的相机与IMU采集数据，对数据做时间戳对齐，并在VINS-MONO, ORBSLAM3上进行测试
-        + 加入高精度组合导航定位系统采集数据，在VINS-FUSION上测试
-
-    - name: 书籍撰写工作
-      link:
-      tags: 实验室项目
-      date: 2022.1, 2023.6
-      description: |
-        + 《智能网联汽车高精度定位技术》惯性导航定位章节
-        + 《汽车自动驾驶性能测试的智能方法与技术》自动驾驶零部件测试指标章节
 
     
 
@@ -235,10 +225,9 @@ education:
       major: 深圳国际研究生院-电子信息（人工智能）
       degree: 硕士
       description: |
-        + **GPA** : 3.92/4 (top 10%)
         + **导师/实验室** : 张凯/智能交通系统实验室（ITS）
         + **研究方向** : SLAM，多传感器融合，传感器标定
-        + **课程项目**: 基于多项式拟合的车道线检测，布匹缺陷检测，神经机器翻译复现
+        + **奖项**: 深圳国际研究生院一等奖学金，专业实践二等奖
 
     - institution: 浙江大学
       link:
@@ -247,7 +236,7 @@ education:
       degree: 学士
       description: |
         + **GPA** : 4.13/5 (top 40%)
-        + **主修课程(分数)** ：C程序设计(95), java程序设计(98), 微机原理与接口技术(95), 数值计算方法(90)，控制理论(97), 线性代数(90), 概率论与数理统计(90)
+        + **奖项** : 浙江大学校级优秀毕业生
 
 certificate:
   show: false
@@ -299,7 +288,7 @@ publication:
    
 
 award:
-  show: true
+  show: false
   order: 4
   title: Awards
   description: |
@@ -346,7 +335,7 @@ patent:
     + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
 
 organization:
-  show: true
+  show: false
   order: 5
   title: Organizations
   description: |
