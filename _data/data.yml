@@ -89,12 +89,12 @@ profile:
 
 experience:
   show: true
-  order: 2
+  order: 1
   title: Experience
   description: |
   
   items:
-    - company: <font color="darkred">华为-智能车解决方案 - 智能驾驶产品线</font>
+    - company: <font color="blue">华为-智能车解决方案 - 智能驾驶产品线</font>
       link:
       tags:
       date: 2024.07 - 至今
@@ -113,7 +113,7 @@ experience:
         
         （1）承担ADS3.0通用障碍物检测节点中激光噪声误检优化代码开发，解决
 
-    - company: <font color="darkred">上海人工智能实验室 - OpenCalib</font>
+    - company: <font color="blue">上海人工智能实验室 - OpenCalib</font>
       link:
       tags: 实习
       date: 2022.08 - 2024.01
@@ -124,13 +124,13 @@ experience:
         
           （1）提出了
           
-          （2）[<font color="blue">开源代码</font>](https://github.com/OpenCalib/SensorX2car) 获得star 100+
+          （2）开源代码仓[https://github.com/OpenCalib/SensorX2car](https://github.com/OpenCalib/SensorX2car) 获得star 100+
           
         + **基于分割的相机与激光雷达外参标定**
         
           （1）
           
-          （2）[<font color="blue">开源代码</font>](https://github.com/OpenCalib/CalibAnything), 获得star 100+
+          （2）开源代码仓[https://github.com/OpenCalib/CalibAnything](https://github.com/OpenCalib/CalibAnything), 获得star 100+
 
           
 
@@ -224,7 +224,7 @@ skill:
 
 education:
   show: true
-  order: 1
+  order: 2
   title: Education
   description: |
 
