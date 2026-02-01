@@ -1,6 +1,6 @@
 basic:
   name: 罗赵彤                      # name
-  title:            # job title
+  title: 1           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
@@ -13,7 +13,7 @@ contact:
   website:      # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
-  birthday:               # birthday
+  birthday:1999.03.19               # birthday
   nationality:             # nationality
   visa:                    # passport visa
   drivinglicense:          # driving licence
@@ -101,8 +101,9 @@ experience:
       role: 自动驾驶算法工程师
       location: 
       description: |
-        + First
+        + 
         + Second
+
     - company: <font color="blue">上海人工智能实验室 - OpenCalib</font>
       link:
       tags: 实习
