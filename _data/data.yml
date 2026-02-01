@@ -1,6 +1,6 @@
 basic:
   name: 罗赵彤                      # name
-  title: 1           # job title
+  title: 自动驾驶，大模型后训练           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
@@ -13,7 +13,7 @@ contact:
   website:      # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
-  birthday:1999.03.19               # birthday
+  birthday: 1999.03.19               # birthday
   nationality:             # nationality
   visa:                    # passport visa
   drivinglicense:          # driving licence
@@ -94,17 +94,17 @@ experience:
   description: |
   
   items:
-    - company: <font color="blue">华为-智能车解决方案 - 智能驾驶产品线</font>
+    - company: <font color="red">华为-智能车解决方案 - 智能驾驶产品线</font>
       link:
       tags:
       date: 2024.07 - 至今
       role: 自动驾驶算法工程师
       location: 
       description: |
-        + 
+        + First
         + Second
 
-    - company: <font color="blue">上海人工智能实验室 - OpenCalib</font>
+    - company: <font color="red">上海人工智能实验室 - OpenCalib</font>
       link:
       tags: 实习
       date: 2022.08 - 2024.01
@@ -113,7 +113,7 @@ experience:
       description: |
         + **四种传感器到车辆在线外参标定方法**
         
-          （1）[<font color="blue">代码开源</font>](https://github.com/OpenCalib/SensorX2car), star 100+
+          （1）github代码仓[https://github.com/OpenCalib/SensorX2car](https://github.com/OpenCalib/SensorX2car) 获得star 100+
           
           （2）论文[<font color="blue">SensorX2Vehicle: Online Sensors-to-Vehicle Rotation Calibration Methods in Road Scenarios</font>](https://ieeexplore.ieee.org/document/10452804) 发表于期刊IEEE Robotics and Automation Letters(RAL)
           
@@ -215,7 +215,7 @@ skill:
 
 education:
   show: true
-  order: 2
+  order: 1
   title: 教育经历
   description: |
 
@@ -267,21 +267,21 @@ certificate:
         It's my Example Certificate Two by Example.
 
 publication:
-  show: false
+  show: True
   order: 7
   title: Publications
   description: |
   
 
   items:
-    - title: <font color="blue"> (在投) SensorX2car Sensors-to-car calibration for autonomous driving in road scenarios </font>
+    - title: <font color="blue"> SensorX2car Sensors-to-car calibration for autonomous driving in road scenarios </font>
       authors: Yan Guohang*, Luo Zhaotong*(与mentor共一）
-      conference: IEEE Robotics and Automation Letters(RAL)(在投)
+      conference: IEEE Robotics and Automation Letters(RAL)
       link: https://arxiv.org/abs/2301.07279
-    - title: <font color="blue"> (在投) Calib-Anything Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything </font>
+    - title: <font color="blue"> Calib-Anything Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything </font>
       authors: Luo Zhaotong（一作）
       conference: IEEE International Conference on Robotics and Automation (ICRA)
-      link: https://arxiv.org/abs/2306.02656  
+      link: https://arxiv.org/abs/2306.02656
     - title: 《智能网联汽车高精度定位技术》
       authors: 负责惯性导航定位章节
       conference: 图书编号（ISBN）9787114184116
