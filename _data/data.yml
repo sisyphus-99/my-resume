@@ -103,15 +103,21 @@ experience:
       description: |
         + **端到端训推一致防护网**
 
-          （1）从0到1构建
+          从0到1构建
         
-        + **接管数据提升模型**
+        + **接管数据训练探索，提升端到端模型**
 
-          （1）
+          接管数据质量提升
+
+          接管数据训练方式探索
         
-        + **激光噪声误检优化**
+        + **数据提纯工具筛选脏难数据**
+  
+          可视化与tag统计代码开发
+          
+        + **激光噪声误检障碍物优化**
         
-          （1）承担ADS3.0通用障碍物检测节点中激光噪声误检优化代码开发，解决
+          承担ADS3.0通用障碍物检测节点中激光噪声误检模块看护与优化工作，包括问题定位、方案设计、代码开发、风险防护等，解决5+问题单，解决case 50+，合入主线代码1000+ Loc
 
     - company: <font color="blue">上海人工智能实验室 - OpenCalib</font>
       link:
@@ -122,11 +128,15 @@ experience:
       description: |
         + **四种传感器到车辆在线外参标定方法**
         
-          对相机、激光雷达、GNSS/INS和毫米波雷达这四种传感器分别提出了一种在线外参标定方法，相比现有方法移除了对固定设备、人工的依赖，在KITTI和自采集的数据上测试达到可用的精度。开源代码仓[https://github.com/OpenCalib/SensorX2car](https://github.com/OpenCalib/SensorX2car) 获得star 100+。以共一在RAL发表一篇论文。
+          对相机、激光雷达、GNSS/INS和毫米波雷达这四种传感器分别提出了一种在线外参标定方法，相比现有方法移除了对固定设备、人工的依赖，在KITTI和自采集的数据上测试达到可用的精度。
+          
+          开源代码仓：[<font color="gray">https://github.com/OpenCalib/SensorX2car</font>](https://github.com/OpenCalib/SensorX2car) 获得star 100+。以共一在 RAL 发表一篇论文。
           
         + **基于分割的相机与激光雷达外参标定**
         
-          提出了一种基于SAM分割模型和点云一致性的相机与激光雷达标定方法，通过优化图像上各个分割mask内投影点云的法向量，反射率，点云分割类别一致性来标定外参。开源代码仓[<font color="gray">https://github.com/OpenCalib/CalibAnything</font>](https://github.com/OpenCalib/CalibAnything), 获得star 100+。论文发表于ICRA。
+          提出了一种基于SAM分割模型和点云一致性的相机与激光雷达标定方法，通过优化图像上各个分割mask内投影点云的法向量，反射率，点云分割类别一致性来标定外参。
+          
+          开源代码仓：[<font color="gray">https://github.com/OpenCalib/CalibAnything</font>](https://github.com/OpenCalib/CalibAnything), 获得star 100+。论文发表于 ICRA。
 
           
 
@@ -241,7 +251,7 @@ education:
       degree: 学士
       description: |
         + **GPA** : 4.13/5 (top 40%)
-        + **奖项** : 浙江大学校级优秀毕业生
+        + **奖项** : 浙江大学校级优秀毕业生，浙江大学二等奖学金
 
 certificate:
   show: false
