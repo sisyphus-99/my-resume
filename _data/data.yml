@@ -103,15 +103,15 @@ experience:
       description: |
         + **端到端训推一致防护网**
 
-        （1）从0到1构建
+          （1）从0到1构建
         
         + **接管数据提升模型**
 
-        （1）
+          （1）
         
         + **激光噪声误检优化**
         
-        （1）承担ADS3.0通用障碍物检测节点中激光噪声误检优化代码开发，解决
+          （1）承担ADS3.0通用障碍物检测节点中激光噪声误检优化代码开发，解决
 
     - company: <font color="blue">上海人工智能实验室 - OpenCalib</font>
       link:
@@ -122,15 +122,11 @@ experience:
       description: |
         + **四种传感器到车辆在线外参标定方法**
         
-          （1）提出了
-          
-          （2）开源代码仓[https://github.com/OpenCalib/SensorX2car](https://github.com/OpenCalib/SensorX2car) 获得star 100+
+          对相机、激光雷达、GNSS/INS和毫米波雷达这四种传感器分别提出了一种在线外参标定方法，相比现有方法移除了对固定设备、人工的依赖，在KITTI和自采集的数据上测试达到可用的精度。开源代码仓[https://github.com/OpenCalib/SensorX2car](https://github.com/OpenCalib/SensorX2car) 获得star 100+。以共一在RAL发表一篇论文。
           
         + **基于分割的相机与激光雷达外参标定**
         
-          （1）
-          
-          （2）开源代码仓[https://github.com/OpenCalib/CalibAnything](https://github.com/OpenCalib/CalibAnything), 获得star 100+
+          提出了一种基于SAM分割模型和点云一致性的相机与激光雷达标定方法，通过优化图像上各个分割mask内投影点云的法向量，反射率，点云分割类别一致性来标定外参。开源代码仓[<font color="gray">https://github.com/OpenCalib/CalibAnything</font>](https://github.com/OpenCalib/CalibAnything), 获得star 100+。论文发表于ICRA。
 
           
 
@@ -286,10 +282,10 @@ publication:
       authors: Yan Guohang*, Luo Zhaotong*(与mentor共一）
       conference: IEEE Robotics and Automation Letters(RAL)
       link: https://ieeexplore.ieee.org/document/10452804
-    - title: <font color="blue"> Automatic Multi-Camera Calibration and Refinement Method in Road Scene for Self-Driving Car </font>
+    - title: <font color="blue"> Zero-training LiDAR-Camera Extrinsic Calibration Method Using Segment Anything Model </font>
       authors: Luo Zhaotong（一作）
       conference: IEEE International Conference on Robotics and Automation (ICRA)
-      link: https://ieeexplore.ieee.org/document/10278439
+      link: https://ieeexplore.ieee.org/document/10610983
 
 
 award:
@@ -344,11 +340,6 @@ organization:
   order: 5
   title: Organizations
   description: |
-    2021.9-2022.9 清华大学深圳国际研究生院学生会宣传部副部长：担任学生会公众号每周一天的编辑，同时排版多篇重要时期的推文
-    
-    2018.9-2020.9 浙江大学电气工程学院新媒体中心副部长：负责了学院百年院庆等重要时期的推文设计与排版
-    
-    2017.9-2018.6 浙江大学丹青学院学生会文艺部干事：负责了辩论赛组织，主持等工作
 
 language:
   show: false
@@ -384,7 +375,6 @@ evaluation:
   order: 13
   title: Self-evaluation
   description: |
-    我的优势在于做事有认真负责，习惯制定计划，通常能够准时完成任务，注重细节。逻辑思维能力较强，一直在理工科方面表现较好。我对未知的理论，技术问题有较强的探索欲和钻研精神。我的性格较为稳重温和，能够在团队中与其他人保持良好的关系。我的缺点是相对来说性格比较内敛，在沟通表达能力上存在不足，组织协调的领导能力不足。但我也有改变自己，直面缺点的勇气，我在大学中积极参加学生工作，尝试参与一些公开活动，锻炼自己的社交与组织能力。我认为自己会始终保持向上发展和进步的追求和动力。
    
 reference:
   show: false
