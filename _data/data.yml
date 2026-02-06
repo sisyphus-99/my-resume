@@ -128,13 +128,13 @@ experience:
       description: |
         + **四种传感器到车辆在线外参标定方法**
         
-          对相机、激光雷达、GNSS/INS和毫米波雷达这四种传感器分别提出了一种在线外参标定方法，相比现有方法移除了对固定设备、人工的依赖，在KITTI和自采集的数据上测试达到可用的精度。
+          对相机、激光雷达、GNSS/INS和毫米波雷达这四种传感器分别提出了一种在线外参标定方法，相比现有方法降低了对固定设备、人工的依赖，在KITTI和自采集的数据上测试达到可用的精度。
           
           开源代码仓：[<font color="gray">https://github.com/OpenCalib/SensorX2car</font>](https://github.com/OpenCalib/SensorX2car) 获得star 100+。以共一在 RAL 发表一篇论文。
           
         + **基于分割的相机与激光雷达外参标定**
         
-          提出了一种基于SAM分割模型和点云一致性的相机与激光雷达标定方法，通过优化图像上各个分割mask内投影点云的法向量，反射率，点云分割类别一致性来标定外参。
+          提出了一种基于SAM分割模型和点云一致性的相机与激光雷达标定方法，通过优化图像上各个分割mask内投影点云的法向量，反射率，点云分割类别一致性来标定外参，能够在无需模型训练的情况下实现较好的标定精度。
           
           开源代码仓：[<font color="gray">https://github.com/OpenCalib/CalibAnything</font>](https://github.com/OpenCalib/CalibAnything), 获得star 100+。论文发表于 ICRA。
 
@@ -306,12 +306,12 @@ award:
 
   items:
     - name: 清华大学三菱重工奖学金，深圳国际研究生院一等奖学金
-      awarder: 清华大学
+      awarder: <font color="blue">清华大学</font>
       date: 2022
       link: '#'
       description: |
     - name: 浙江大学校级优秀毕业生
-      awarder: 浙江大学
+      awarder: <font color="blue">浙江大学</font>
       date: 2021
       link:
       description: |
