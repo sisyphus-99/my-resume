@@ -134,7 +134,7 @@ experience:
           
         + **基于分割的相机与激光雷达外参标定**
         
-          提出了一种基于SAM分割模型和点云一致性的相机与激光雷达标定方法，通过优化图像上各个分割mask内投影点云的法向量，反射率，点云分割类别一致性来标定外参，能够在无需模型训练的情况下实现较好的标定精度。
+          提出了一种基于SAM分割模型和点云一致性的相机与激光雷达标定方法，通过优化图像上各个分割mask内投影点云的法向量，反射率，点云分割类别一致性来标定外参，能够在无需训练的情况下实现较好的标定精度。
           
           开源代码仓：[<font color="gray">https://github.com/OpenCalib/CalibAnything</font>](https://github.com/OpenCalib/CalibAnything), 获得star 100+。论文发表于 ICRA。
 
